@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Fan Rescue — Brand Assets</title>
+<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg">
+<link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+<link rel="apple-touch-icon" href="/favicon/apple-touch-icon.png">
+<link rel="stylesheet" href="/brand/tokens.css">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: var(--fr-font-body);
+    background: var(--fr-warm-white);
+    color: var(--fr-slate);
+    line-height: 1.6;
+  }
+  .topbar {
+    background: var(--fr-navy-deep);
+    padding: 18px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--fr-gold);
+  }
+  .topbar img { height: 36px; display: block; }
+  .topbar .meta { color: var(--fr-warm-grey); font-size: 12px; letter-spacing: 0.05em; }
+  .wrap { max-width: 1000px; margin: 0 auto; padding: 48px 24px; }
+  h1 {
+    font-family: var(--fr-font-display);
+    color: var(--fr-navy-deep);
+    font-size: 34px;
+    letter-spacing: 0.04em;
+    margin-bottom: 10px;
+  }
+  .sub { color: var(--fr-warm-grey); font-size: 14px; margin-bottom: 40px; max-width: 640px; }
+  h2 {
+    font-family: var(--fr-font-display);
+    color: var(--fr-navy-deep);
+    font-size: 18px;
+    letter-spacing: 0.06em;
+    margin: 48px 0 16px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--fr-gold);
+  }
+  .intro {
+    background: var(--fr-surface);
+    border: 1px solid var(--fr-border);
+    border-left: 4px solid var(--fr-gold);
+    padding: 20px 24px;
+    border-radius: var(--fr-radius-md);
+    margin-bottom: 24px;
+    font-size: 14px;
+    color: var(--fr-slate);
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+  }
+  .card {
+    background: var(--fr-surface);
+    border: 1px solid var(--fr-border);
+    border-radius: var(--fr-radius-md);
+    padding: 20px;
+    transition: box-shadow 0.2s;
+  }
+  .card:hover { box-shadow: var(--fr-shadow-lift); }
+  .card .preview {
+    background: var(--fr-warm-white);
+    border-radius: var(--fr-radius-sm);
+    padding: 16px;
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+  }
+  .card .preview.dark { background: var(--fr-navy-deep); }
+  .card .preview img { max-width: 100%; max-height: 80px; display: block; }
+  .card .name { font-size: 13px; font-weight: 700; color: var(--fr-navy-deep); margin-bottom: 4px; }
+  .card .url {
+    font-size: 11px;
+    color: var(--fr-warm-grey);
+    word-break: break-all;
+    font-family: ui-monospace, 'SF Mono', Menlo, monospace;
+  }
+  .card a { color: var(--fr-gold); text-decoration: none; }
+  .card a:hover { color: var(--fr-gold-light); }
+
+  .swatches {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 12px;
+  }
+  .sw {
+    border-radius: var(--fr-radius-md);
+    padding: 16px;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: ui-monospace, monospace;
+    font-size: 11px;
+  }
+  .sw .sw-name { font-weight: 700; font-size: 12px; font-family: var(--fr-font-body); }
+  .sw .sw-hex { opacity: 0.75; }
+
+  .type-sample {
+    background: var(--fr-surface);
+    border: 1px solid var(--fr-border);
+    border-radius: var(--fr-radius-md);
+    padding: 28px 32px;
+    margin-bottom: 16px;
+  }
+  .type-sample .display {
+    font-family: var(--fr-font-display);
+    font-size: 32px;
+    color: var(--fr-navy-deep);
+    letter-spacing: 0.04em;
+    margin-bottom: 8px;
+  }
+  .type-sample .body {
+    font-family: var(--fr-font-body);
+    font-size: 15px;
+    color: var(--fr-slate);
+    line-height: 1.6;
+  }
+  .type-sample .label {
+    font-family: ui-monospace, monospace;
+    font-size: 11px;
+    color: var(--fr-warm-grey);
+    margin-top: 12px;
+  }
+
+  footer {
+    margin-top: 64px;
+    padding-top: 24px;
+    border-top: 1px solid var(--fr-border);
+    font-size: 12px;
+    color: var(--fr-warm-grey);
+    text-align: center;
+  }
+  footer a { color: var(--fr-gold); text-decoration: none; }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <img src="/logos/FR-Horizontal-Gold-Navy.svg" alt="Fan Rescue">
+  <div class="meta">BRAND ASSETS · v2.0.0</div>
+</div>
+
+<div class="wrap">
+  <h1>BRAND ASSETS</h1>
+  <p class="sub">
+    Centralised hosting at <code>assets.fanrescue.co.uk</code>.
+    Reference these URLs in proposals, websites, emails, and documents.
+  </p>
+
+  <div class="intro">
+    <strong>For developers / Claude sessions:</strong>
+    Add <code>&lt;link rel="stylesheet" href="https://assets.fanrescue.co.uk/brand/tokens.css"&gt;</code>
+    to any HTML page, then use CSS variables (<code>var(--fr-navy-deep)</code>, <code>var(--fr-gold)</code>,
+    <code>var(--fr-font-display)</code>, etc.). See <a href="/README.md">README.md</a> for full reference.
+  </div>
+
+  <h2>LOGOS — STACKED</h2>
+  <div class="grid">
+    <div class="card">
+      <div class="preview dark"><img src="/logos/FR-Stacked-Gold-Navy.svg" alt="Stacked gold on navy"></div>
+      <div class="name">Stacked — Gold on Navy</div>
+      <div class="url">/logos/FR-Stacked-Gold-Navy.svg</div>
+    </div>
+    <div class="card">
+      <div class="preview"><img src="/logos/FR-Stacked-Transparent.svg" alt="Stacked transparent"></div>
+      <div class="name">Stacked — Transparent</div>
+      <div class="url">/logos/FR-Stacked-Transparent.svg</div>
+    </div>
+  </div>
+
+  <h2>LOGOS — HORIZONTAL</h2>
+  <div class="grid">
+    <div class="card">
+      <div class="preview dark"><img src="/logos/FR-Horizontal-Gold-Navy.svg" alt="Horizontal gold on navy"></div>
+      <div class="name">Horizontal — Gold on Navy</div>
+      <div class="url">/logos/FR-Horizontal-Gold-Navy.svg</div>
+    </div>
+    <div class="card">
+      <div class="preview"><img src="/logos/FR-Horizontal-Transparent.svg" alt="Horizontal transparent"></div>
+      <div class="name">Horizontal — Transparent</div>
+      <div class="url">/logos/FR-Horizontal-Transparent.svg</div>
+    </div>
+  </div>
+
+  <h2>LOGOS — MARK & WORDMARK</h2>
+  <div class="grid">
+    <div class="card">
+      <div class="preview dark"><img src="/logos/FR-Mark-Gold-Navy.svg" alt="Mark gold on navy"></div>
+      <div class="name">Mark — Gold on Navy</div>
+      <div class="url">/logos/FR-Mark-Gold-Navy.svg</div>
+    </div>
+    <div class="card">
+      <div class="preview"><img src="/logos/FR-Mark-Transparent.svg" alt="Mark transparent"></div>
+      <div class="name">Mark — Transparent</div>
+      <div class="url">/logos/FR-Mark-Transparent.svg</div>
+    </div>
+    <div class="card">
+      <div class="preview dark"><img src="/logos/FR-Wordmark-Gold-Navy.svg" alt="Wordmark gold on navy"></div>
+      <div class="name">Wordmark — Gold on Navy</div>
+      <div class="url">/logos/FR-Wordmark-Gold-Navy.svg</div>
+    </div>
+    <div class="card">
+      <div class="preview"><img src="/logos/FR-Wordmark-Transparent.svg" alt="Wordmark transparent"></div>
+      <div class="name">Wordmark — Transparent</div>
+      <div class="url">/logos/FR-Wordmark-Transparent.svg</div>
+    </div>
+  </div>
+
+  <h2>FAVICON SET</h2>
+  <div class="grid">
+    <div class="card">
+      <div class="preview"><img src="/favicon/favicon.svg" alt="favicon SVG" style="max-height:64px;"></div>
+      <div class="name">favicon.svg (modern browsers)</div>
+      <div class="url">/favicon/favicon.svg</div>
+    </div>
+    <div class="card">
+      <div class="preview"><img src="/favicon/apple-touch-icon.png" alt="Apple touch icon" style="max-height:64px;border-radius:14px;"></div>
+      <div class="name">apple-touch-icon.png (180px)</div>
+      <div class="url">/favicon/apple-touch-icon.png</div>
+    </div>
+    <div class="card">
+      <div class="preview"><img src="/favicon/android-chrome-192.png" alt="Android chrome" style="max-height:64px;border-radius:14px;"></div>
+      <div class="name">android-chrome-{192,512}.png</div>
+      <div class="url">/favicon/android-chrome-512.png</div>
+    </div>
+    <div class="card">
+      <div class="preview"><img src="/favicon/favicon-48.png" alt="favicon 48" style="max-height:48px;"></div>
+      <div class="name">favicon-{16,32,48,96}.png + .ico</div>
+      <div class="url">/favicon/favicon.ico</div>
+    </div>
+  </div>
+
+  <h2>COLOUR PALETTE</h2>
+  <div class="swatches">
+    <div class="sw" style="background:#0A1628;color:#fff;"><span class="sw-name">Navy Deep</span><span class="sw-hex">#0A1628</span></div>
+    <div class="sw" style="background:#162844;color:#fff;"><span class="sw-name">Navy Mid</span><span class="sw-hex">#162844</span></div>
+    <div class="sw" style="background:#1E3A5F;color:#fff;"><span class="sw-name">Navy Light</span><span class="sw-hex">#1E3A5F</span></div>
+    <div class="sw" style="background:#C8973E;color:#0A1628;"><span class="sw-name">Gold Primary</span><span class="sw-hex">#C8973E</span></div>
+    <div class="sw" style="background:#D4A94E;color:#0A1628;"><span class="sw-name">Gold Light</span><span class="sw-hex">#D4A94E</span></div>
+    <div class="sw" style="background:#E8D5A3;color:#0A1628;"><span class="sw-name">Gold Pale</span><span class="sw-hex">#E8D5A3</span></div>
+    <div class="sw" style="background:#F5F2EC;color:#3D4F5F;border:1px solid #e3ddd2;"><span class="sw-name">Warm White</span><span class="sw-hex">#F5F2EC</span></div>
+    <div class="sw" style="background:#3D4F5F;color:#fff;"><span class="sw-name">Slate</span><span class="sw-hex">#3D4F5F</span></div>
+    <div class="sw" style="background:#8A9BAB;color:#fff;"><span class="sw-name">Warm Grey</span><span class="sw-hex">#8A9BAB</span></div>
+  </div>
+
+  <h2>TYPOGRAPHY</h2>
+  <div class="type-sample">
+    <div class="display">FAN RESCUE — DISPLAY TYPE</div>
+    <div class="body">Archivo Black, 900 weight. Used for headings, the wordmark, and the FR monogram. Letter-spacing 0.04em–0.12em depending on use. Loaded automatically from Google Fonts when you include <code>tokens.css</code>.</div>
+    <div class="label">var(--fr-font-display) — 'Archivo Black'</div>
+  </div>
+  <div class="type-sample">
+    <div class="body" style="font-size:18px;color:var(--fr-navy-deep);font-weight:600;margin-bottom:8px;">Source Sans 3 — Body Type</div>
+    <div class="body">Used for all body copy, the tagline, UI labels, and supporting text. Available weights 300, 400, 500, 600, 700. Loaded automatically from Google Fonts. The full ESTABLISHED 2005 tagline uses this at 0.25em letter-spacing.</div>
+    <div class="label">var(--fr-font-body) — 'Source Sans 3'</div>
+  </div>
+
+  <h2>BRAND DATA</h2>
+  <div class="grid">
+    <div class="card">
+      <div class="name">tokens.css</div>
+      <div class="url">/brand/tokens.css</div>
+      <p style="font-size:12px;color:var(--fr-warm-grey);margin-top:10px;line-height:1.5;">
+        CSS custom properties for the entire design system. Drop in via <code>&lt;link&gt;</code>, then use <code>var(--fr-navy-deep)</code>, <code>var(--fr-gold)</code>, etc.
+      </p>
+    </div>
+    <div class="card">
+      <div class="name">company.json</div>
+      <div class="url">/brand/company.json</div>
+      <p style="font-size:12px;color:var(--fr-warm-grey);margin-top:10px;line-height:1.5;">
+        Machine-readable company details — BESA no., F-Gas no., address, bank details, palette. Useful for templates and automation.
+      </p>
+    </div>
+  </div>
+
+  <footer>
+    Fan Rescue Ltd · Brand pack v2.0.0 · Updated 2026-05-15 · <a href="/README.md">README</a>
+  </footer>
+</div>
+
+</body>
+</html>

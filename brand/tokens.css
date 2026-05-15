@@ -1,0 +1,58 @@
+/* ════════════════════════════════════════════════════════════════
+   FAN RESCUE — BRAND DESIGN TOKENS
+   Single source of truth for colours, typography, and spacing.
+
+   Usage in any HTML proposal:
+     <link rel="stylesheet" href="https://assets.fanrescue.co.uk/brand/tokens.css">
+
+   Then reference tokens in your own CSS:
+     background: var(--fr-navy-deep);
+     color: var(--fr-gold);
+     font-family: var(--fr-font-display);
+   ════════════════════════════════════════════════════════════════ */
+
+:root {
+  /* ── NAVY ── */
+  --fr-navy-deep:   #0A1628;  /* primary background, wordmark on light */
+  --fr-navy-mid:    #162844;  /* monogram background, mid-tone surfaces */
+  --fr-navy-light:  #1E3A5F;  /* tertiary accent, hover states */
+
+  /* ── GOLD ── */
+  --fr-gold:        #C8973E;  /* primary — wordmark, monogram, accent on dark */
+  --fr-gold-light:  #D4A94E;  /* hover states, active accents */
+  --fr-gold-pale:   #E8D5A3;  /* tagline text, subtle highlights */
+
+  /* ── NEUTRALS ── */
+  --fr-warm-white:  #F5F2EC;  /* light backgrounds, page canvas */
+  --fr-slate:       #3D4F5F;  /* body copy */
+  --fr-warm-grey:   #8A9BAB;  /* captions, muted text */
+
+  /* ── ALIASES (compatibility / convenience) ── */
+  --fr-text:        var(--fr-slate);
+  --fr-text-muted:  var(--fr-warm-grey);
+  --fr-bg:          var(--fr-warm-white);
+  --fr-surface:     #ffffff;
+  --fr-border:      #e3ddd2;
+  --fr-border-soft: #ede8dc;
+
+  /* ── TYPOGRAPHY ── */
+  --fr-font-display: 'Archivo Black', system-ui, -apple-system, sans-serif;
+  --fr-font-body:    'Source Sans 3', system-ui, -apple-system, sans-serif;
+
+  /* Letter-spacing constants from brand guide */
+  --fr-tracking-wordmark: 0.12em;   /* FAN RESCUE wordmark */
+  --fr-tracking-mark:     0.02em;   /* FR monogram */
+  --fr-tracking-tagline:  0.25em;   /* ESTABLISHED 2005 etc */
+
+  /* ── RADII ── */
+  --fr-radius-sm: 2px;
+  --fr-radius-md: 4px;
+  --fr-radius-lg: 8px;
+
+  /* ── SHADOWS ── */
+  --fr-shadow-card: 0 1px 3px rgba(10, 22, 40, 0.08);
+  --fr-shadow-lift: 0 4px 12px rgba(10, 22, 40, 0.12);
+}
+
+/* ── GOOGLE FONTS — Archivo Black (display) + Source Sans 3 (body) ── */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Source+Sans+3:wght@300;400;500;600;700&display=swap');

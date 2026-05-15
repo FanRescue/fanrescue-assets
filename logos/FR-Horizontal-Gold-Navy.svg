@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 500" width="1600" height="500">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&amp;family=Source+Sans+3:wght@400&amp;display=swap');
+      .fan-rescue {
+        font-family: 'Archivo Black', sans-serif;
+        font-weight: 900;
+        fill: #C8973E;
+        letter-spacing: 0.12em;
+      }
+      .established {
+        font-family: 'Source Sans 3', sans-serif;
+        font-weight: 400;
+        fill: #E8D5A3;
+        letter-spacing: 0.25em;
+      }
+    </style>
+  </defs>
+  <rect width="1600" height="500" fill="#0A1628"/>
+  <text x="100" y="285" class="fan-rescue" font-size="130">FAN RESCUE</text>
+  <text x="102" y="355" class="established" font-size="32">— ESTABLISHED 2005 —</text>
+</svg>

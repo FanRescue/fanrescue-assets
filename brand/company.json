@@ -1,0 +1,87 @@
+{
+  "company": {
+    "legal_name": "Fan Rescue Ltd",
+    "trading_name": "Fan Rescue",
+    "established": 2005,
+    "tagline": "Commercial Kitchen Extraction & HVAC Specialists",
+    "service_area": "London & South East"
+  },
+  "contact": {
+    "phone": "020 3308 2936",
+    "phone_tel": "+442033082936",
+    "email_office": "office@fanrescue.co.uk",
+    "email_enquiries": "enquiries@fanrescue.co.uk",
+    "email_customer_service": "customerservice@fanrescue.co.uk",
+    "website": "https://fanrescue.co.uk"
+  },
+  "address": {
+    "line1": "Ability House, Unit 129",
+    "line2": "121 Brooker Road",
+    "town": "Waltham Abbey",
+    "postcode": "EN9 1JH",
+    "country": "United Kingdom",
+    "full": "Ability House, Unit 129, 121 Brooker Road, Waltham Abbey EN9 1JH"
+  },
+  "registration": {
+    "company_number": "5954579",
+    "vat_number": "906911132",
+    "vat_number_formatted": "906 9111 32"
+  },
+  "certifications": {
+    "besa": {
+      "number": "HV020676",
+      "verify_url": "https://www.thebesa.com/HV020676/"
+    },
+    "fgas": {
+      "number": "FGAS2001890"
+    }
+  },
+  "insurance": {
+    "public_liability": "£10 Million",
+    "employers_liability": "Standard cover",
+    "professional_indemnity": "£10 Million"
+  },
+  "banking": {
+    "method": "Bank transfer (BACS) only",
+    "sort_code": "20 67 49",
+    "account_number": "40180696",
+    "account_name": "Fan Rescue Limited",
+    "note": "We do not accept card payments."
+  },
+  "proposal_rules": {
+    "payment_method": "Bank transfer only — no card payments",
+    "agreements": "Service agreements require a formal e-signature document before work begins",
+    "scheduling": "All services require Google Calendar events created and accepted by the client",
+    "vat_rate": 20,
+    "quote_validity_days": 30
+  },
+  "team": {
+    "head_of_operations": {
+      "name": "Sam Matthews",
+      "title": "Head of Operations"
+    }
+  },
+  "design_system": {
+    "navy_deep": "#0A1628",
+    "navy_mid": "#162844",
+    "navy_light": "#1E3A5F",
+    "gold": "#C8973E",
+    "gold_light": "#D4A94E",
+    "gold_pale": "#E8D5A3",
+    "warm_white": "#F5F2EC",
+    "slate": "#3D4F5F",
+    "warm_grey": "#8A9BAB",
+    "font_display": "Archivo Black",
+    "font_body": "Source Sans 3",
+    "tokens_css": "https://assets.fanrescue.co.uk/brand/tokens.css",
+    "logo_primary_svg": "https://assets.fanrescue.co.uk/logos/FR-Horizontal-Gold-Navy.svg",
+    "logo_stacked_svg": "https://assets.fanrescue.co.uk/logos/FR-Stacked-Gold-Navy.svg",
+    "logo_mark_svg": "https://assets.fanrescue.co.uk/logos/FR-Mark-Gold-Navy.svg"
+  },
+  "_meta": {
+    "version": "2.0.0",
+    "last_updated": "2026-05-15",
+    "maintained_by": "Ben — Fan Rescue Ltd",
+    "notes": "v2.0.0 adopted new brand pack: Archivo Black + Source Sans 3, updated palette."
+  }
+}

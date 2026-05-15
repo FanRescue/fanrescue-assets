@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&amp;display=swap');
+      .monogram {
+        font-family: 'Archivo Black', sans-serif;
+        font-weight: 900;
+        fill: #C8973E;
+        letter-spacing: 0.02em;
+      }
+    </style>
+  </defs>
+  <rect width="512" height="512" rx="96" ry="96" fill="#0A1628"/>
+  <text x="256" y="256" class="monogram" font-size="240" text-anchor="middle" dominant-baseline="central">FR</text>
+</svg>
